@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-MAINTAINER Charo Nuguid <me@thegeekettespeaketh.com>
 
 ENV DEBIAN_FRONTEND=noninteractive
 
