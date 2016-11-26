@@ -24,6 +24,3 @@ RUN cd install-tl-*/ && \
  ./install-tl --profile=/profiles/texlive.profile && \
  tlmgr install texliveonfly
 
-WORKDIR /source
-
-ENTRYPOINT ["texliveonfly"]
