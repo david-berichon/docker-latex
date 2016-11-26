@@ -7,4 +7,4 @@ Then run `tlmgr` to install the rest of the packages needed for your project.
 
 **USAGE**
 
-    docker run -v `pwd`:/source headgeekette/latex [filename].tex
+    docker run -v `pwd`:`pwd` -w `pwd` dbndev/latex [filename].tex
